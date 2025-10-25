@@ -1,0 +1,79 @@
+{
+  "personalInfo": {
+    "photo": "photo_url",
+    "year": 1,
+    "semester": 2,
+    "major": "CS",
+    "rollNo": "002283",
+    "name": {
+        "mm": "အောင်မောင်",
+        "en": "Aung Maung"
+    },
+    "nationality": "Myanmar",
+    "religion": "Buddhism",
+    "birthPlace": "Yangon",
+    "township": "Kamayut",
+    "state": "Yangon",
+    "region": "Yangon",
+    "nrc": "12/XYZ(N)123456",
+    "isNationality": true,
+    "birthDate": "2001-05-10",
+    "matricRollNo": "papa-707",
+    "matricYr": 2018,
+    "matricDept": "ထ(၁) ြပည်",
+    "address": "123, Kamayut St, Yangon, Myanmar",
+    "phone": "0912345678",
+    "email": "abc@gmail.com"
+  },
+  "father": {
+    "name": {
+        "mm": "ဦးသန်းထွန်း",
+        "en": "U Than Tun"
+    },
+    "nationality": "Myanmar",
+    "religion": "Buddhism",
+    "birthPlace": "Yangon",
+    "township": "Kamayut",
+    "state": "Yangon",
+    "region": "Yangon",
+    "nrc": "12/XYZ(N)123456",
+    "isNationality": true,
+    "jobInfo": "Businessman",
+    "phone": "0912345679"
+  },
+  "mother": {
+    "name": {
+        "mm": "ဒေါ်လှလှ",
+        "en": "Daw Hla Hla"
+    },
+    "nationality": "Myanmar",
+    "religion": "Buddhism",
+    "birthPlace": "Yangon",
+    "township": "Kamayut",
+    "state": "Yangon",
+    "region": "Yangon",
+    "nrc": "12/XYZ(N)123456",
+    "isNationality": true,
+    "jobInfo": "Businesswoman",
+    "phone": "0912345679"
+  },
+  "pastExams": [
+    {
+        "examName": "first year first semester exam",
+        "year": 2023,
+        "isPass": true
+    },
+    {
+        "examName": "first year second semester exam",
+        "year": 2024,
+        "isPass": true
+    }
+  ],
+  "supporter": {
+    "name": "U Hla",
+    "relationship": "Uncle",
+    "job": "Farmer",
+    "address": "456, Bahan St, Yangon, Myanmar",
+    "phone": "0912345680"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "personalInfo": {
     "photo": "photo_url",
-    "year": 1,
-    "semester": 2,
-    "major": "CS",
+    "year": 1, // 1 to 5
+    "semester": 2, // 1 or 2
+    "major": "CS", // "CS" or "IT"
     "rollNo": "002283",
     "name": {
-        "mm": "အောင်မောင်",
-        "en": "Aung Maung"
+      "mm": "အောင်မောင်",
+      "en": "Aung Maung"
     },
     "nationality": "Myanmar",
     "religion": "Buddhism",
@@ -23,12 +23,12 @@
     "matricDept": "ထ(၁) ြပည်",
     "address": "123, Kamayut St, Yangon, Myanmar",
     "phone": "0912345678",
-    "email": "abc@gmail.com"
+    "gmail": "abc@gmail.com"
   },
   "father": {
     "name": {
-        "mm": "ဦးသန်းထွန်း",
-        "en": "U Than Tun"
+      "mm": "ဦးသန်းထွန်း",
+      "en": "U Than Tun"
     },
     "nationality": "Myanmar",
     "religion": "Buddhism",
@@ -43,8 +43,8 @@
   },
   "mother": {
     "name": {
-        "mm": "ဒေါ်လှလှ",
-        "en": "Daw Hla Hla"
+      "mm": "ဒေါ်လှလှ",
+      "en": "Daw Hla Hla"
     },
     "nationality": "Myanmar",
     "religion": "Buddhism",
@@ -59,14 +59,14 @@
   },
   "pastExams": [
     {
-        "examName": "first year first semester exam",
-        "year": 2023,
-        "isPass": true
+      "examName": "first year first semester exam",
+      "year": 2023,
+      "isPass": true
     },
     {
-        "examName": "first year second semester exam",
-        "year": 2024,
-        "isPass": true
+      "examName": "first year second semester exam",
+      "year": 2024,
+      "isPass": true
     }
   ],
   "supporter": {
@@ -75,5 +75,70 @@
     "job": "Farmer",
     "address": "456, Bahan St, Yangon, Myanmar",
     "phone": "0912345680"
-  }
+  },
+  "accountInfo": {
+    "username": "aungmaung",
+    "email": "abc@gmail.com",
+    "password": "securepassword123"
+  },
+  "grades": [
+    {
+      "academic_year": 1,
+      "semester": 1,
+      "start_date": "2025-01-15",
+      "subjects": [
+        {
+          "course_code": "CST-1122",
+          "course_name": "Python",
+          "final_grade": "A+"
+        },
+        {
+          "course_code": "CST-1123",
+          "course_name": "Linear Algebra",
+          "final_grade": "B+"
+        }
+      ]
+    },
+    {
+      "academic_year": 1,
+      "term_number": 2,
+      "start_date": "2025-06-15",
+      "subjects": [
+        {
+          "course_code": "CST-1222",
+          "course_name": "JavaScript",
+          "final_grade": "A"
+        },
+        {
+          "course_code": "CST-1223",
+          "course_name": "Calculus",
+          "final_grade": "A-"
+        }
+      ]
+    }
+  ],
+  "attendance": [
+    {
+      "academic_year": 1,
+      "term_number": 1,
+      "start_date": "2025-01-15",
+      "monthly_rates": [
+        { "month_name_abbr": "Jan", "percentage_attended": 85 },
+        { "month_name_abbr": "Feb", "percentage_attended": 82 },
+        { "month_name_abbr": "Mar", "percentage_attended": 90 },
+        { "month_name_abbr": "Apr", "percentage_attended": 87 }
+      ]
+    },
+    {
+      "academic_year": 1,
+      "term_number": 2,
+      "start_date": "2025-06-15",
+      "monthly_rates": [
+        { "month_name_abbr": "May", "percentage_attended": 88 },
+        { "month_name_abbr": "Jun", "percentage_attended": 90 },
+        { "month_name_abbr": "Jul", "percentage_attended": 85 },
+        { "month_name_abbr": "Aug", "percentage_attended": 87 }
+      ]
+    }
+  ]
 }
